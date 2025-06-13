@@ -1,0 +1,9 @@
+{
+  "name": "mattkonnect/bloc-faq",
+  "title": "Bloc FAQ - Questions fréquentes",
+  "description": "Questions fréquentes posées par les jeunes accompagnés par la Mission Locale.",
+  "categories": ["text", "sections"],
+  "keywords": ["faq", "questions", "aide", "informations"],
+  "viewportWidth": 1000,
+  "content": "<!-- wp:group {\"style\":{\"spacing\":{\"padding\":{\"top\":\"40px\",\"bottom\":\"40px\"}}},\"layout\":{\"type\":\"constrained\"}} --><div class=\"wp-block-group\" style=\"padding-top:40px;padding-bottom:40px\"><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Questions fréquentes</h2><!-- /wp:heading --><!-- wp:details --><details class=\"wp-block-details\"><summary>Comment m’inscrire à la Mission Locale ?</summary><p>Il suffit de vous rendre à la permanence la plus proche avec une pièce d’identité. L’inscription est gratuite.</p></details><!-- /wp:details --><!-- wp:details --><details class=\"wp-block-details\"><summary>Quels services propose la Mission Locale ?</summary><p>Orientation, emploi, formation, logement, santé, mobilité… tout pour accompagner les jeunes de 16 à 25 ans.</p></details><!-- /wp:details --><!-- wp:details --><details class=\"wp-block-details\"><summary>Faut-il prendre rendez-vous ?</summary><p>Pas toujours. Certaines permanences acceptent les jeunes sans RDV. Consultez la carte ou contactez-nous.</p></details><!-- /wp:details --></div><!-- /wp:group -->"
+}

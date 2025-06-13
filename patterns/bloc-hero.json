@@ -1,0 +1,9 @@
+{
+  "name": "mattkonnect/bloc-hero",
+  "title": "Bloc Héros - Accueil",
+  "description": "Un bloc d'introduction dynamique pour la page d'accueil des Missions Locales.",
+  "categories": ["featured", "home"],
+  "keywords": ["accueil", "mission locale", "intro", "jeunes"],
+  "viewportWidth": 1200,
+  "content": "<!-- wp:group {\"style\":{\"spacing\":{\"padding\":{\"top\":\"60px\",\"bottom\":\"60px\"}}},\"backgroundColor\":\"primary\",\"textColor\":\"white\",\"layout\":{\"type\":\"constrained\"}} --><div class=\"wp-block-group has-white-color has-primary-background-color has-text-color has-background\" style=\"padding-top:60px;padding-bottom:60px\"><!-- wp:heading {\"level\":1,\"style\":{\"typography\":{\"fontSize\":\"2.5rem\"}}} --><h1 class=\"wp-block-heading\" style=\"font-size:2.5rem\">Bienvenue à la Mission Locale</h1><!-- /wp:heading --><!-- wp:paragraph -->\n<p>Un accompagnement personnalisé pour votre avenir : emploi, formation, orientation, logement.</p>\n<!-- /wp:paragraph --><!-- wp:buttons --><div class=\"wp-block-buttons\"><!-- wp:button {\"backgroundColor\":\"white\",\"textColor\":\"primary\"} --><div class=\"wp-block-button\"><a class=\"wp-block-button__link has-primary-color has-white-background-color has-text-color has-background\">Découvrir nos services</a></div><!-- /wp:button --></div><!-- /wp:buttons --></div><!-- /wp:group -->"
+}
