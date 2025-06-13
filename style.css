@@ -3,10 +3,76 @@ Theme Name: Missions Locales Block Theme
 Theme URI: https://www.mattkonnect.com/
 Author: MattKonnect
 Author URI: https://www.mattkonnect.com/
-Description: Thème WordPress FSE optimisé pour les Missions Locales.
+Description: Thème WordPress FSE optimisé pour les Missions Locales. Inclut des patterns réutilisables, une palette de couleurs personnalisée, et un formulaire de contact multi-permanences sécurisé.
 Version: 1.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: missionslocales
 Tags: full-site-editing, responsive, accessibility-ready, block-patterns
 */
+
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #2A2A2A;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    color: #E30613;
+}
+
+a {
+    color: #E30613;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #B0050F;
+}
+
+.wp-block-button__link {
+    color: #fff !important;
+    background: #E30613 !important;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.wp-block-button__link.has-white-background-color {
+    color: #E30613 !important;
+}
+
+input,
+textarea,
+select {
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    padding: 12px;
+    font-size: 1rem;
+    color: #2A2A2A;
+    background: #fff;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2A2A2A;
+}
+
+@media (max-width: 600px) {
+    .wp-block-columns {
+        flex-direction: column !important;
+    }
+
+    .wp-block-group {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}

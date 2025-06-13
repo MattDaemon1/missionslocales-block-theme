@@ -2,6 +2,22 @@
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 2,
   "settings": {
+    "typography": {
+      "fontFamily": "Source Sans Pro, sans-serif",
+      "lineHeight": "1.6",
+      "fontSizes": [
+        {
+          "slug": "base",
+          "size": "1rem",
+          "name": "Par défaut"
+        },
+        {
+          "slug": "lg",
+          "size": "1.25rem",
+          "name": "Grand"
+        }
+      ]
+    },
     "color": {
       "palette": [
         {
@@ -10,134 +26,93 @@
           "name": "Rouge Mission Locale"
         },
         {
-          "slug": "secondary",
-          "color": "#5F259F",
-          "name": "Violet"
-        },
-        {
-          "slug": "accent",
-          "color": "#FBB03B",
-          "name": "Jaune"
-        },
-        {
-          "slug": "neutral-light",
+          "slug": "neutral",
           "color": "#F5F5F5",
           "name": "Gris clair"
         },
         {
-          "slug": "neutral-dark",
+          "slug": "text",
           "color": "#2A2A2A",
-          "name": "Gris foncé"
-        },
-        {
-          "slug": "white",
-          "color": "#FFFFFF",
-          "name": "Blanc"
-        },
-        {
-          "slug": "black",
-          "color": "#000000",
-          "name": "Noir"
+          "name": "Texte principal"
         }
       ],
-      "defaultPalette": true
-    },
-    "typography": {
-      "fontFamilies": [
-        {
-          "slug": "source-sans-pro",
-          "name": "Source Sans Pro",
-          "fontFamily": "'Source Sans Pro', sans-serif"
-        },
-        {
-          "slug": "open-sans",
-          "name": "Open Sans",
-          "fontFamily": "'Open Sans', sans-serif"
-        }
-      ],
-      "defaultFontSizes": [
-        {
-          "slug": "small",
-          "size": "0.875rem",
-          "name": "Petit"
-        },
-        {
-          "slug": "normal",
-          "size": "1rem",
-          "name": "Normal"
-        },
-        {
-          "slug": "large",
-          "size": "1.25rem",
-          "name": "Grand"
-        },
-        {
-          "slug": "x-large",
-          "size": "2rem",
-          "name": "Très grand"
-        }
-      ]
+      "background": true,
+      "text": true
     },
     "spacing": {
-      "units": ["px", "em", "rem", "%"],
+      "blockGap": "1.5rem",
       "spacingScale": {
         "steps": 10,
         "mediumStep": 8,
         "unit": "px"
-      },
-      "blockGap": "1.5rem"
-    },
-    "layout": {
-      "contentSize": "960px",
-      "wideSize": "1240px"
-    },
-    "custom": {
-      "borderRadius": {
-        "small": "4px",
-        "medium": "8px",
-        "large": "16px"
       }
+    },
+    "border": {
+      "radius": "8px",
+      "width": "1px",
+      "color": "#cccccc"
     }
   },
   "styles": {
-    "color": {
-      "background": "#FFFFFF",
-      "text": "#2A2A2A"
-    },
-    "typography": {
-      "fontFamily": "'Source Sans Pro', sans-serif",
-      "fontSize": "1rem",
-      "lineHeight": "1.6"
-    },
     "elements": {
-      "heading": {
+      "input": {
+        "color": {
+          "text": "#2A2A2A",
+          "background": "#FFFFFF"
+        },
+        "border": {
+          "color": "#cccccc",
+          "radius": "8px",
+          "width": "1px",
+          "style": "solid"
+        },
+        "spacing": {
+          "padding": "12px"
+        },
         "typography": {
-          "fontFamily": "'Open Sans', sans-serif",
-          "fontWeight": "700"
+          "fontSize": "1rem"
         }
       },
       "button": {
+        "color": {
+          "text": "#FFFFFF",
+          "background": "#E30613"
+        },
         "border": {
-          "radius": "8px"
+          "radius": "8px",
+          "width": "0px"
+        },
+        "spacing": {
+          "padding": "12px 24px"
+        },
+        "typography": {
+          "fontSize": "1rem",
+          "fontWeight": "600"
+        }
+      },
+      "textarea": {
+        "color": {
+          "text": "#2A2A2A",
+          "background": "#FFFFFF"
+        },
+        "border": {
+          "color": "#cccccc",
+          "radius": "8px",
+          "width": "1px"
+        },
+        "spacing": {
+          "padding": "12px"
+        }
+      },
+      "label": {
+        "typography": {
+          "fontSize": "1rem",
+          "fontWeight": "500"
         },
         "color": {
-          "background": "#E30613",
-          "text": "#FFFFFF"
+          "text": "#2A2A2A"
         }
       }
     }
-  },
-  "customTemplates": [],
-  "templateParts": [
-    {
-      "name": "header",
-      "title": "Header",
-      "area": "header"
-    },
-    {
-      "name": "footer",
-      "title": "Footer",
-      "area": "footer"
-    }
-  ]
+  }
 }
